@@ -1,0 +1,278 @@
+.new1{
+    background-color: blueviolet;
+    text-align: justify;
+}
+.header{
+    position: relative;
+    top: 130px; 
+    display: flex; 
+    margin-left: 80px;
+}
+.header-img img{
+    height: 438px; 
+    width: 556px; 
+}
+.header-title{
+    font-size: 40px;
+    color: white;
+    height: 220px;
+    width: 485px;
+    position: relative;
+    top: -25px;
+    padding-right: 200px ;
+}
+.header-title a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #e02c6d;
+    padding: 10px;
+    position: relative;
+    left: 0px;
+    
+}
+
+.h-bg{
+    background-color: #2D25A0;
+    height: 677px;
+    width: 100%;
+
+}
+
+.header-title .header-img img{
+    
+    position: relative;
+    top: 10%;
+}
+.container{
+
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+  grid-row-gap: 26px;
+
+}
+.player{
+    width: 300px;
+    height: 500px;
+    padding: 2px;
+    border: 5px solid whitesmoke;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px whitesmoke;
+    margin: 15px;    
+  
+}
+
+.player-img img{
+    
+    width: 300px;
+    height: 256px;
+    
+
+}
+.player-data h3{
+
+    font-weight: 900;
+    text-align: center;
+}
+.player-data p{
+    text-align: center;
+    color: #6c6c6c;
+}
+
+
+/* Extra content */
+
+.extra1 #comment{
+    width: 60%;
+    height: 150px;
+}
+.extra1 button{
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top: -49px;
+
+
+}
+/* Extra part 2 */
+.extra2 input{
+    width: 40%;
+    height: 25px;
+    background-color: whitesmoke;
+    border: 3px whitesmoke solid;
+}
+.extra2 #email{
+    position: relative;
+    left: 34px;
+}
+
+.extra2 button{
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    
+
+
+}
+
+
+
+/*------------------
+   footer section 
+------------------ */
+.footer-items{
+
+    height: 213px;
+    width: 484px;
+    
+    border-radius: 5px;
+   
+    padding: 5px;
+    position: relative;
+    left: 475px;
+    top: 220px;
+}
+
+.fcon img{
+    
+    height: 110px;
+    width: 484px;
+}
+.footer-icon i{
+   align-items: center;
+   position: relative;
+   margin: 10px;
+   left: 160px;
+   color: gray;
+}
+
+.footer-items p{
+    text-align: center;
+    color: gray;
+}
+
+/* media queries */
+
+@media only screen and (max-width:688px){
+
+
+    .h-bg{
+        background-color: #2D25A0;
+        height: 900px;
+        width: 100%;
+    
+    }
+    h1{
+        position:relative;
+        bottom: 170px;
+    }
+    
+
+    
+    .header{
+        position: relative;
+        top: 130px; 
+        
+        margin-left: 80px;
+      
+       
+    }
+
+    .header-title a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        background-color: #e02c6d;
+        padding: 10px;
+        position: relative;
+        left: 0px;
+        position: relative;
+        bottom: 200px;
+    }
+  
+            .header-img img {
+                height: 230px;
+                width: 330px;
+                position: relative;
+                top: 420px;
+                right: 455px;
+            }
+            .footer-items {
+                height: 213px;
+                width: 484px;
+                border-radius: 5px;
+                padding: 5px;
+                position: relative;
+                left: 164px;
+                top: 220px;
+            }     
+            
+          
+        
+
+
+    .header-title{
+        font-size: 40px;
+        color: white;
+        height: 220px;
+        width: 485px;
+        position: relative;
+        top: -25px;
+        padding-right: 200px ;
+    }
+    .container{
+
+        display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 30px;
+      grid-row-gap: 26px;
+  
+  }
+    .footer-items{
+
+        height: 213px;
+        width: 484px;
+        
+        border-radius: 5px;
+       
+        padding: 5px;
+        position: relative;
+        left: 370px;
+        top: 220px;
+    }
+    
+
+}
+.extra1 button {
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top: 10px;
+}
+
+
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+
+
+}
+
+
